@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+}
+
+.container {
+	--background-color: #fff;
+	--text-color: #333;
+	--primary-color: #f38135;
+
+	padding: 30px 10px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	background-color: var(--background-color);
+	color: var(--text-color);
+	transition: all 0.3s ease-in-out;
+}
+
+.dark {
+	--background-color: #333;
+	--text-color: #fff;
+	--primary-color: #d0d066;
+}
+
+.container h1 {
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+#theme-btn {
+	font-size: 25px;
+	color: var(--primary-color);
+	cursor: pointer;
+}
+
+.counter-container {
+	margin-top: 35px;
+	width: 100%;
+}
+
+.counter {
+	font-size: 80px;
+}
+
+.btn-container {
+	width: 30%;
+	margin: 50px auto 80px auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btn {
+	border: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	background-color: var(--primary-color);
+	color: var(--text-color);
+	transition: all 0.3s ease-in-out;
+}
+
+.plus-btn .fa-plus,
+.minus-btn .fa-minus {
+	font-size: 25px;
+}
+.btn.reset-btn {
+	margin-top: 20px;
+	font-size: 18px;
+	background-color: red;
+	color: #fff;
+}
+
+.input-box {
+	width: 20%;
+	margin: 20px auto 60px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.input,
+.add-btn {
+	height: 35px;
+	border: none;
+	border-bottom: 1px solid var(--text-color);
+	background-color: var(--background-color);
+	color: var(--text-color);
+	transition: all 0.3s ease-in-out;
+}
+
+.input {
+	width: 80%;
+	padding-left: 15px;
+	outline: none;
+	font-size: 22px;
+	text-align: center;
+}
+
+.add-btn {
+	width: 20%;
+}
+
+@media (max-width: 768px) {
+	.btn-container {
+		width: 80%;
+	}
+
+	.input-box {
+		width: 60%;
+	}
+}
