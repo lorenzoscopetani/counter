@@ -17,7 +17,7 @@
 * [HTML](https://www.html.it/guide/guida-html/)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=it)
 * [JavaScript](https://www.javascript.com/)
-*[Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage?retiredLocale=it)
+* [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage?retiredLocale=it)
 ****************************************
 ### Test
 You can test the Counter Web App on [Netlify](https://counterbasic.netlify.app/)
